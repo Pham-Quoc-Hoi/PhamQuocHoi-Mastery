@@ -1,0 +1,375 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+
+    /* padding: 10px; */
+    text-decoration: none;
+    /* text-align: center; */
+}
+
+.header i,
+.header h1 {
+    display: inline;
+}
+
+.header i {
+    font-size: 30px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    color: #fdc800;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #002146;
+    /* vertical-align: top; */
+}
+
+.header h1 {
+    font-size: 50px;
+    padding: 10px;
+    color: #1b1d2d;
+    font-weight: bold;
+}
+
+.header ul {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.header li {
+    display: inline;
+    padding-left: 35px;
+    font-size: 25px;
+    font-weight: 600px;
+    /* line-height: 10px; */
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* BANNER */
+
+.banner {
+    /* display: block; */
+    /* height: 200px; */
+    margin: 25px 0;
+    /* Set chiều cao banner và thẻ ẩn các thứ dư ra */
+    overflow: hidden;
+    height: 600px;
+}
+
+.banner img {
+    /* margin-top: 25px; */
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Cắt ảnh bằng cách cho chiều cao lớn hơn chiều cao được set trong banner và thẻ ẩn phần tràn ra */
+    height: 963px;
+    /* overflow: hidden; */
+    /* margin: 25px 0 -100px 0; */
+}
+
+/* WELCOME */
+.welcome {
+    padding: 50px 0 50px;
+    width: 80%;
+    margin: auto;
+}
+
+.welcome__text,
+.welcome__img {
+    float: left;
+    width: 50%;
+}
+
+.welcome__text h2 {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.welcome__text p {
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px 100px 0 0;
+    color: #959595;
+    line-height: 35px;
+}
+
+.welcome__text button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #fdc800;
+    border: 1px solid #fdc800;
+    border-radius: 10px;
+    color: #022246;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+/* INTRO */
+.intro {
+    background-color: #f6f6f6;
+}
+
+.intro__d {
+    padding: 60px 50px;
+    width: 75%;
+    margin: auto;
+}
+
+.intro__item {
+    float: left;
+    width: 25%;
+}
+
+.intro__item h2 {
+    float: left;
+    width: 33%;
+    font-size: 50px;
+    text-align: right;
+}
+
+
+.intro__item h3 {
+    /* font-size: 25px; */
+    float: left;
+    width: 67%;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+/* CATELOGY */
+
+.catelogy {
+    padding: 90px;
+}
+
+.catelogy__background {
+    width: 80%;
+    margin: auto;
+    /* background-color: #002146; */
+    /* padding: 30px; */
+    /* border-radius: 20px; */
+}
+
+.catelogy__item {
+    margin-top: 20px;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 35px 60px;
+    border: 15px solid;
+    border-radius: 20px;
+    background-color: #002146;
+    color: white;
+}
+
+.catelogy__item i {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.catelogy__item p {
+    font-size: 20px;
+}
+
+/* NEWS */
+/*          NEWS__LEFT */
+.news {
+    background-color: #f6f6f6;
+    /* height: 900px; */
+}
+
+.news__background {
+    width: 80%;
+    /* height: 900px; */
+    margin: auto;
+}
+
+.news__left,
+.news__right {
+    float: left;
+    width: 50%;
+    margin-top: 70px;
+    padding: 30px;
+}
+
+.news__background h2 {
+    margin: 40px 0;
+    font-size: 35px;
+}
+
+.news__item {
+    padding: 20px;
+    background-color: white;
+}
+
+.news__item1 {
+    margin: 20px 0 20px;
+}
+
+.news__item1 img {
+    float: left;
+    width: 35%;
+    border-radius: 10px;
+}
+
+.news__item1 hr {
+    width: 95%;
+    margin: auto;
+    height: 1px;
+    border-color: grey;
+}
+
+.news__text {
+    float: left;
+    width: 65%;
+    padding: 10px;
+}
+
+.news__text h4 {
+    color: #939393;
+    margin: 10px 0 20px;
+}
+
+.news__button {
+    text-align: right;
+}
+
+.news__button button {
+    margin-top: 20px;
+    background-color: #fdc800;
+    border-color: #fdc800;
+    color: #002146;
+    padding: 10px 20px 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+/*              NEWS-right          */
+
+.news__item2 {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+}
+
+.news__day {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.day__top {
+    background-color: #fdc800;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.day__top h3 {
+    font-size: 30px;
+}
+
+.day__top p {
+    font-weight: bold;
+}
+
+.day__bottom {
+    background-color: #002146;
+    padding: 10px 20px;
+    border-radius: 0 0 10px 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.news__text2 {
+    float: left;
+    width: 80%;
+    padding: 20px;
+}
+
+.news__text2 p {
+    margin: 10px 0;
+}
+
+.news__text2 span {
+    color: rgb(11, 11, 180);
+    /* font-size: 20px; */
+    /* font-weight: bold; */
+}
+
+/* FOOTER */
+.footer {
+    background-color: #002146;
+    color: white;
+}
+
+.footer__services {
+    width: 85%;
+    margin: auto;
+}
+
+.footer__content {
+    float: left;
+    width: calc(100% / 3);
+    margin: 50px 0 30px;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.footer__content h3 {
+    margin-bottom: 40px;
+}
+
+.footer__content i {
+    margin: 10px;
+    /* font-size: 25px; */
+    color: #fdc800;
+}
+
+.footer__content p {
+    display: inline;
+    line-height: 30px;
+}
+
+.footer__content li {
+    line-height: 38px;
+    /* color: white; */
+    list-style: none;
+}
+
+.footer__content ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__copyright p {
+    font-size: 20px;
+    padding: 40px 0 60px;
+}
+
+.footer__copyright hr {
+    height: 1px;
+    border-color: grey;
+}
+
+.footer__copyright p span {
+    color: gray;
+}
